@@ -1,14 +1,17 @@
 import React from 'react';
-import NavBar from './proyectoreact/components/NavBar/NavBar.jsx';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from '../NavBar/NavBar';
+import ItemListContainer from '../ItemListConteiner/ItemListConteiner';
+import CarWidget from '../CarWidget/CarWidget'
+
+
 
 const App = () => {
-    return (
-        <div>
-            <NavBar />
-            <ItemListContainer mensajeBienvenida="¡Bienvenido a nuestra tienda de ambientaciones de eventos!" />
-        </div>
-    );
+  return (
+    <div>
+      <NavBar />
+      <ItemListContainer greeting="Welcome to our store!" />
+    </div>
+  );
 };
 
 export default App;
