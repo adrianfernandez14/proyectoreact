@@ -5,11 +5,11 @@ const NavBar = () => {
     return (
       <nav>
         <h1>My E-commerce</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div>
+          <button>Bebidas</button>
+          <button>Embutidos</button>
+          <button>Viandas</button>
+        </div>
         <CartWidget />
       </nav>
     );
