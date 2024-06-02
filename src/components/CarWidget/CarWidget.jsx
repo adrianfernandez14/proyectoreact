@@ -1,13 +1,13 @@
 import React from "react";
 
 
-const CartWidget = () => {
+const CarWidget = () => {
   return (
     <div>
       <i className="fa fa-shopping-cart"></i>
-      <span>3</span>
+      <span>0</span>
     </div>
   );
 };
 
-export default CartWidget;
+export default CarWidget;

@@ -1,4 +1,5 @@
 import React from "react";
+import CarWidget from "../CarWidget/CarWidget";
 
 
 const NavBar = () => {
@@ -10,7 +11,7 @@ const NavBar = () => {
           <button>Embutidos</button>
           <button>Viandas</button>
         </div>
-        <CartWidget />
+        <CarWidget />
       </nav>
     );
   };

@@ -1,14 +1,15 @@
-import './App.css';
-import App from '../src/components/App/App.jsx'
-import ItemListContainer from './components/ItemListConteiner/ItemListConteiner';
-import NavBar from './components/NavBar/NavBar.jsx';
-import CartWidget from './components/CarWidget/CarWidget.jsx';
 import React from 'react';
+import './App.css';
+import ItemListContainer from './components/ItemListConteiner/ItemListConteiner.jsx';
+import NavBar from './components/NavBar/NavBar.jsx';
+import CarWidget from './components/CarWidget/CarWidget.jsx';
 
-function App() {
+function App () {
   return (
     <div className="App">
-      
+      <ItemListContainer mensajeBienvenida={"¡Bienvenidos a la pagina de fiambres mas ricos y pedidos de todo el mar del oeste!"}/>
+      <NavBar/>
+      <CarWidget/>
     </div>
   );
 }
