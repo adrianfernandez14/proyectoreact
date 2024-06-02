@@ -1,11 +1,12 @@
 import React from "react";
-
+import carrito2 from "./Assets/carrito2.jpeg"
 
 const CarWidget = () => {
   return (
     <div>
-      <i className="fa fa-shopping-cart"></i>
-      <span>0</span>
+      
+        <img src={carrito2} alt="carrito" />
+        <span>0</span>
     </div>
   );
 };
