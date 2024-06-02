@@ -1,5 +1,5 @@
 import React from "react";
-import carrito2 from "./Assets/carrito2.jpeg"
+import carrito2 from "./Assets/carrito2.jpg"
 
 const CarWidget = () => {
   return (

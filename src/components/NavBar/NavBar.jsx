@@ -5,14 +5,15 @@ import CarWidget from "../CarWidget/CarWidget";
 const NavBar = () => {
     return (
       <nav>
-        <h1>My E-commerce</h1>
+        <h1>Nuestros Productos</h1>
         <div>
           <button>Bebidas</button>
           <button>Embutidos</button>
           <button>Viandas</button>
         </div>
-        <CarWidget />
+        <CarWidget/>
       </nav>
+    
     );
   };
   
