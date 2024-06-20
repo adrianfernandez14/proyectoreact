@@ -1,6 +1,5 @@
 import React from "react";
 import CarWidget from "../CarWidget/CarWidget";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 
